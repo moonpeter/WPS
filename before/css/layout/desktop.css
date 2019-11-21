@@ -1,0 +1,127 @@
+/* Desktop Layout */
+.container{
+  flex-direction: column;
+  align-items: center;
+}
+.header, .main, .menu-list{
+  width: 1000px;
+}
+.navigation, .footer{
+  width: 100%;
+}
+.main{
+  justify-content: space-between;
+}
+.book, .board{
+  width: 320px;
+}
+.news{
+  width: 660px;
+}
+.favorite{
+  width: 240px;
+  order: 1;
+}
+.twitter{
+  width: 400px;
+}
+
+/* 헤더 */
+.header{
+  position: relative;
+  padding-bottom: 1.5em;
+}
+/* 로고 */
+.logo{
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  margin-top: -30px;
+}
+/* 멤버 링크 */
+.member{
+  font-size: 0;
+  text-align: right;
+  padding: 3px 0;
+  margin-right: -7px;
+}
+.member li, .member a, .member span{
+  display: inline-block;
+}
+.member a, .member span{
+  font-size: 1.4rem;
+}
+.member a{
+  padding: 0.5em;
+}
+/* 검색 폼 */
+.search-form{
+  text-align: right;
+}
+.search-form fieldset{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.search-form *{
+  vertical-align: middle;
+}
+[type="search"]{
+  width: 450px;
+  height: 30px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 0 1em;
+}
+.buttonSearch{
+  background-color: #988573;
+  border: 1px solid #aaa;
+  height: 30px;
+  padding: 0 1em;
+  color: #fff;
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+/* 메인 메뉴 */
+.navigation{
+  background: #988574;
+}
+.buttonBurger{
+  display: none;
+}
+.menu-list{
+  margin: 0 auto;
+  padding-left: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+.menu-item{
+  float: left;
+  color: #fff;
+  padding-top: 1em;
+}
+.menu-link{
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-shadow: 1px 0 0 #000,  0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.submenu{
+  font-size: 1.5rem;
+  margin: 1em 0;
+  padding-left: 20px;
+}
+.submenu li{
+  margin-top: 0.5em;
+}
+.menu-item:nth-child(n+2){
+  margin-left: 104px;
+}
+.submenu a:hover,
+.submenu a:focus{
+  color: #ff0
+}
+.submenu a:focus{
+  outline: 0;
+}

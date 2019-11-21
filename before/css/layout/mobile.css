@@ -203,3 +203,8 @@
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
+/* 메인 영역(모바일)의 안쪽 여백 설정 */
+.main{
+  padding-left: 20px;
+  padding-right: 20px;
+}

@@ -31,9 +31,33 @@ body{
   flex-flow: row wrap;
 }
 /* 추천서적 */
-.book{
-
+.book-cover{
+  text-align: center;
 }
+.book-cover figcaption{
+  font-size: 1.5rem;
+  display: block;
+  margin: 0.5em 0;
+}
+.book-info{
+  text-align: center;
+}
+.book-info dd{
+  margin-left: 0;
+}
+.book-info *{
+  display: inline-block;
+}
+.book-info [aria-label]{
+  display: block;
+  font-size: 2.5rem;
+}
+/* .book-info dd:nth-of-type(2){
+  display: block;
+  font-size: 2.5rem;
+} */
+
+
 /* 새소식 */
 .news{
   background-color: skyblue;

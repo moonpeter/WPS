@@ -5,3 +5,20 @@
   margin-bottom: 0;
   padding-left: 0;
 }
+
+/* 반응형 콘텐츠 */
+.responsive{
+  max-width: 100%;
+  height: auto;
+}
+/* 스프라이트 이미지[메인 콘텐츠 섹션 제목] */
+.book-title{
+  background: url("./../images/sprite_main.png") no-repeat;
+  height: 60px;
+  padding-left: 65px;
+}
+.news-title{
+  background: url("./../images/sprite_main.png") no-repeat 0 -230px;
+  height: 60px;
+  padding-left: 65px;
+}

@@ -27,14 +27,12 @@ body{
 }
 /* 메인 콘텐츠 */
 .main{
-  background-color: blue;
-  height: 60vh;
   display: flex;
   flex-flow: row wrap;
 }
 /* 추천서적 */
 .book{
-  background-color: lime;
+
 }
 /* 새소식 */
 .news{

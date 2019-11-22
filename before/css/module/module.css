@@ -29,6 +29,9 @@
 .irFavorite{
   background-position: 0 -345px;
 }
+.irTwitter{
+  background-position: 0 -460px;
+}
 /* 메인 콘텐츠 섹션 공통 */
 .main [class*="-title"]{
   font-size: 1.8rem;
@@ -52,4 +55,7 @@
 }
 .themeOrange{
   color: #eea60a;
+}
+.themeSkyblue{
+  color: #6aaee6;
 }

@@ -127,9 +127,62 @@ body{
   padding: 0.5em 0;
 }
 /* 트위터 */
-.twitter{
-  background-color: teal;
+.twitter-content{
+  overflow: hidden;
+  padding-right: 22%;
+  position: relative;
 }
+.twitter-userinfo dd{
+  display: inline-block;
+  margin-left: 0;
+}
+.twitter-userprofile{
+  margin-left: 0;
+  margin-right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  text-align: right;
+}
+.twitter-userprofile img{
+  border: 1px solid #181818;
+  padding: 0.5em;
+  border-radius: 50%;
+}
+.twitter-date{
+
+  text-align: right;
+  display: block;
+}
+/* .twitter-userinfo{
+  background: skyblue;
+}
+.twitter-userinfo dd{
+  margin-left: 0;
+  display: inline-block;
+}
+.twitter-userprofile{
+  background: lime;
+  margin-left: 0;
+  margin-right: 0;
+}
+.twitter-summary{
+  background: orange;
+}
+.twitter-date{
+  background: pink;
+  text-align: right;
+}
+
+.twitter-userinfo, .twitter-summary, .twitter-date{
+  width: 320px;
+  float: left;
+}
+.twitter-userprofile{
+  width: 80px;
+  float: right;
+} */
 /* 푸터 */
 .footer{
   background-color: hotpink;

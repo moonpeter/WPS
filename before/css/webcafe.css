@@ -78,7 +78,32 @@ body{
 }
 /* 게시판 */
 .board{
-  background-color: tan;
+  position: relative;
+}
+.board-list{
+  list-style: none;
+}
+.board-list li{
+  margin: 0.5em 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.board-list a{
+  width: calc(100% - 7em);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0.25em 0;
+}
+.board-list time{
+  margin-left: auto;
+}
+.board-more{
+  position: absolute;
+  top: 0.25em;
+  right: -1em;
+  padding: 1em;
 }
 /* 인기 사이트 */
 .favorite{

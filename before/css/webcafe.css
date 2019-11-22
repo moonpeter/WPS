@@ -106,8 +106,25 @@ body{
   padding: 1em;
 }
 /* 인기 사이트 */
-.favorite{
-  background-color: pink;
+.favorite-list{
+  list-style: none;
+}
+.favorite-list li{
+  counter-increment: number;
+  margin: 0.5em 0;
+}
+.favorite-list li::before{
+  display: inline-block;
+  content: counter(number);
+  color: #fff;
+  background-color: #eea60a;
+  padding: 0.5em 0.75em;
+  margin-right: 1em;
+  border-radius: 50%;
+}
+.favorite-list a{
+  display: inline-block;
+  padding: 0.5em 0;
 }
 /* 트위터 */
 .twitter{

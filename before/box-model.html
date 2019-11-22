@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="ie=edge"
+    />
+    <title>박스 모델</title>
+    <style>
+      /* .box1 {
+        box-sizing: border-box;
+        background: yellow;
+        width: 500px;
+        height: 50px;
+        border: 1px solid #000;
+        padding: 10px;
+        margin: 10px auto;
+      }
+      .box2,
+      .box3 {
+        background: pink;
+        display: block;
+        width: 300px;
+        height: 50px;
+        border: 1px solid #000;
+        margin: 20px auto;
+      } */
+      * {
+        box-sizing: border-box;
+      }
+
+      .box {
+        background: yellow;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      .box * {
+        padding: 1em;
+        width: 50%;
+      }
+
+      .box1 {
+        background: pink;
+        width: 30%;
+
+      }
+
+      .box2 {
+        background: skyblue;
+        width: 70%;
+
+      }
+
+      .box3 {
+        background: orange;
+        width: 50%;
+      }
+
+      .box4 {
+        background: lime;
+        width: 50%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+      <div class="box1">박스 1 입니다.
+      </div>
+      <div class="box2">여기는 박스 2 입니다.
+      </div>
+      <div class="box3">여기는 박스 3 입니다.
+      </div>
+      <div class="box4">여기는 박스 4 입니다.
+      </div>
+    </div>
+  </body>
+
+</html>

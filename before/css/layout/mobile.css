@@ -212,3 +212,13 @@
 .twitter-content{
   min-height: 150px;
 }
+/* 푸터 주소 영역 */
+.footer{
+  text-align: left;
+}
+.address span{
+  display: block;
+}
+.copyright{
+  text-transform: uppercase;
+}
